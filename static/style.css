@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+body{
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(10, 17, 61);
+}
+
+header{
+    color: white;
+    padding: 20px 30% 20px;
+    border-bottom: 2px solid white;
+    margin: 10px;
+    width: 100%;
+    
+}
+
+header p{
+    font-weight: bold;
+    font-size: 29px;
+    width: 100%;
+}
+
+
+.container{
+    background-color: cadetblue;
+    height: 83vh;
+}
+
+.content {
+    margin: auto;
+    padding: 30px;
+  }
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+
+label{
+    color: rgb(11, 11, 116);
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+input, select{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(20, 82, 82, 0.205);
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+#button{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(32, 201, 144);
+    color: white;
+    border: 2px solid rgb(46, 46, 177, 0.505);
+}
+
+
+.result{
+    margin: auto;
+    padding: 30px;   
+}
+
+
+.result p{
+    font-size: 25px;
+    font-weight: 600; 
+}
+
+
+.result span{
+    color: coral;
+}
